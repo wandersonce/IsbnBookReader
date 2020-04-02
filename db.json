@@ -1,0 +1,13 @@
+{
+    "books": [
+        {
+            "id": "9788576082675",
+            "isbn": "9788576082675",
+            "name": "Codígo Limpo - Habilidades Práticas do Agile Software",
+            "coverUrl": "https://devsamurai-materials.s3.amazonaws.com/samurai-books/clean-code.jpg",
+            "rating": 4,
+            "promotionalPrice": 39.9,
+            "price": 99.9
+        }
+    ]
+}

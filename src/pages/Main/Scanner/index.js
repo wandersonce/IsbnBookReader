@@ -1,9 +1,10 @@
 import React, { useEffect } from 'react';
+import PropTypes from 'prop-types';
 import Quagga from 'quagga';
 import { validateIsbn } from '../../../services/books'
 import { Container, Video, ScanMarker } from './styles';
 
-function Scanner() {
+function Scanner({ onScan }) {
     let scannerAtteps = 0;
 
     const onDetected = result => {
@@ -13,7 +14,7 @@ function Scanner() {
         console.log(isbn);
 
         if (validateIsbn(isbn)) {
-            alert(isbn);
+            onScan(isbn);
             return;
         } else {
             if (scannerAtteps >= 5) {
@@ -79,4 +80,9 @@ function Scanner() {
     );
 }
 
+Scanner.propTypes = {
+    onScan: PropTypes.func,
+}
+
 export default Scanner;
+
