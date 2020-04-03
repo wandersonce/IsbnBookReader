@@ -23,7 +23,7 @@ function Results({ isbn }) {
             {book && ( // ! It will make a condition to just return the code  if the variable book have been loaded
                 <Link to={`/book-details/${isbn}`}>
                     <Wrapper>
-                        <Cover src="https://devsamurai-materials.s3.amazonaws.com/samurai-books/clean-code.jpg" />
+                        <Cover src={book.coverUrl} />
                         <Info>
                             <h4 className="bookName" >{book.name}</h4>
                             <div className="bookRating">
