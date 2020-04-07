@@ -8,7 +8,34 @@
             "rating": 4,
             "promotionalPrice": 39.9,
             "price": 99.9,
-            "score": 4.5
+            "score": 4.5,
+            "scores": [
+                {
+                    "name": "Translation",
+                    "value": 3.5
+                },
+                {
+                    "name": "Codes",
+                    "value": 5
+                },
+                {
+                    "name": "Comunity",
+                    "value": 4
+                },
+                {
+                    "name": "Examples",
+                    "value": 3.9
+                }
+            ],
+            "tecnologies": [
+                "Java",
+                "TDD",
+                "Arcteture"
+            ],
+            "requirements": [
+                "Java"
+            ],
+            "description": "Even a bad code can work. But if it is not clean, it can destroy a develop company."
         }
     ]
 }

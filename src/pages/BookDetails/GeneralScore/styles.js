@@ -19,6 +19,7 @@ export const Container = styled.div`
         margin: auto;
         margin-top: 30px;
     
+    }
     .summaryScoreValue{
         font-size:98px;
     }
@@ -32,5 +33,4 @@ export const Container = styled.div`
         margin-top: 7px;
     }
 
-    }
 `;
