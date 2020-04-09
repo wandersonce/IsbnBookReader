@@ -1,4 +1,16 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ISBN BOOK READER
+With this PWA you will be able to scan the ISBN code from your book and get some info about it. Using the Quagga api we can scan the code
+and it will give us back the number of the scanned ISBN.
+
+### Scan Area -
+<img src="https://user-images.githubusercontent.com/51806895/78862837-1a14c400-79ed-11ea-9695-3c1f6e01fef8.png"  width="50%"/>
+
+### After find a book - 
+<img src="https://user-images.githubusercontent.com/51806895/78862932-4e888000-79ed-11ea-85cb-f15633407f0b.png"  width="50%"/>
+
+### Book Details screen -
+<img src="https://user-images.githubusercontent.com/51806895/78863081-9c9d8380-79ed-11ea-911e-f0f4adaf5fa4.png"  width="50%"/>
+
 
 ## Available Scripts
 
